@@ -158,7 +158,7 @@ The GUI minimizes to system tray / notification area. You can reopen the GUI by 
 
 ## Download
 
-### http://hwk.fi/TabletDriver/TabletDriverV0.1.5.zip
+### https://github.com/AbdShullah/TabletDriver/files/4688412/TabletDriverV0.1.5.6.Devocub.Edition.zip
 
 #
 
