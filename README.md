@@ -243,7 +243,7 @@ If you want to compile the code and don't want to install anything from the Tabl
 #
 
 ## Changelog
->**v0.1.6:**
+>**v0.1.5.6:**
 > - Replaced Windows Api call with proper and precise time checking.
 
 >**v0.1.5:**
