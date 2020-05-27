@@ -243,6 +243,9 @@ If you want to compile the code and don't want to install anything from the Tabl
 #
 
 ## Changelog
+>**v0.1.6:**
+> - Replaced Windows Api call with proper and precise time checking.
+
 >**v0.1.5:**
 > - New tablet configurations: Wacom CTL-4100 (USB only model), XP-Pen G540 Pro, XP-Pen Deco 01 and Huion osu!tablet
 >   Thanks to /u/THEqrunt for capturing the XP-Pen Deco 01 USB data.
