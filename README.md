@@ -1,3 +1,5 @@
+Fixed weird smoothing issue in Windows Insider Preview 20H1
+
 This is a my modified version of hawku's tablet driver.  
 Intended for Wacom tablets but will work with other tablets but not expect everything work correct.  
 Comparison with original, added:
