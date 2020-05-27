@@ -14,9 +14,9 @@
 #include "ScreenMapper.h"
 
 // Global variables...
-extern VMulti *vmulti;
-extern Tablet *tablet;
-extern ScreenMapper *mapper;
+extern VMulti* vmulti;
+extern Tablet* tablet;
+extern ScreenMapper* mapper;
 extern void CleanupAndExit(int code);
 
 

@@ -13,14 +13,8 @@ TabletFilter::TabletFilter() {
 // Start Timer
 //
 bool TabletFilter::StartTimer() {
-	return CreateTimerQueueTimer(
-		&timer,
-		NULL, callback,
-		NULL,
-		0,
-		(int)timerInterval,
-		WT_EXECUTEDEFAULT
-	);
+	timer = new TimedFilter();
+	task = async(launch::async, &TimedFilter::FilterTimerCallback, timer, timerInterval);
 }
 
 
@@ -29,9 +23,9 @@ bool TabletFilter::StartTimer() {
 //
 bool TabletFilter::StopTimer() {
 	if (timer == NULL) return false;
-	bool result = DeleteTimerQueueTimer(NULL, timer, NULL);
-	if (result) {
-		timer = NULL;
-	}
-	return result;
+	timer->cancellation_token = false;
+	task.get();
+	delete timer;
+	timer = NULL;
+	return true;
 }
