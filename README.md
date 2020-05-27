@@ -194,7 +194,9 @@ The GUI minimizes to system tray / notification area. You can reopen the GUI by 
   - Huion H640P
   - Gaomon S56K
   
+  
 ### Configured, but not properly tested:
+  - Gaomon S620
   - Huion osu!tablet
   - XP-Pen Deco 01
   - Wacom CTL-4100 USB
