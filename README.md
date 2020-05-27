@@ -8,7 +8,7 @@ Comparison with original, added:
 * Mouse Wheel
 
 ## Download
-### https://github.com/Devocub/TabletDriver/releases
+### https://github.com/AbdShullah/TabletDriver/releases
 ### Installing
 1) If you have already Driver installed just: **close it, and unzip new version with replacing files**.
 Your config will be preserved. Same for updating.
