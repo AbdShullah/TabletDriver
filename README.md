@@ -1,3 +1,6 @@
+### If you don't need smoothing/anitchatter -> use OpenTabletDriver
+### -> https://github.com/InfinityGhost/OpenTabletDriver
+
 Fixed weird smoothing issue in Windows Insider Preview 20H1
 
 This is a my modified version of hawku's tablet driver.  
